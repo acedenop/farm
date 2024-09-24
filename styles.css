@@ -55,17 +55,15 @@ table {
     --orange: #e75d02;
     --black: #000000;
     --white: #ffffff;
-    font-family: 'Habibi';
-    font-style: normal;
-    font-weight: 400;
-    font-family: 'Irish Grover';
+    --font-primary: 'Irish Grover';
+    --font-secondary: 'Habibi';
     --font-size-small: 1.25em;
     --font-size-medium: 1.75em;
     --font-size-large: 2.5em;
 }
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 body {
-    font-family: 'Habibi' latin;
+   
 }
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
