@@ -75,8 +75,6 @@ body{
 header, footer{
     background-color: var(--green);
     padding: 30px;
-    width: auto;
-    
 }
 
 header h1{
@@ -140,6 +138,19 @@ main h3{
     color: var(--black);
     margin-bottom: 15px;
 }
+
+#contact h2{
+    color: var(--black);
+    display: flex;
+    justify-content: center;
+}
+
+#contact p{
+    color: var(--black);
+    display: flex;
+    justify-content: center;
+}
+
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 @media screen and (min-width: 834px) {
 
