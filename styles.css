@@ -63,7 +63,9 @@ table {
 }
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 @media screen and (min-width: 428px) {
-
+.image-grid{
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
 }
 body{
     font-family: var(--font-secondary);
@@ -223,13 +225,19 @@ footer{
 }
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 @media screen and (min-width: 834px) {
-
+.image-grid{
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
 }
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
 @media screen and (min-width: 1280px) {
-
+.image-grid{
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
 }
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
-@media screen and (min-width: 1440px) {
-
+@media screen and (min-width: 834px) {
+.image-grid{
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
 }
